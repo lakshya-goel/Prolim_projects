@@ -1,0 +1,22 @@
++-------------------------+
+|   LockedMeApplication   |
++-------------------------+
+| - main(String[] args)   |
+| - displayWelcomeScreen()|
+| - showMainMenu()        |
++-------------------------+
+
+            |
+            V
+
++-------------------------+
+|      FileManager        |
++-------------------------+
+| - directoryPath: String |
++-------------------------+
+| + listFiles()           |
+| + showFileOperationsMenu()|
+| + addFile(String)       |
+| + deleteFile(String)    |
+| + searchFile(String)    |
++-------------------------+
