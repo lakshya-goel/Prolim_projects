@@ -29,7 +29,13 @@ public class LockedMeApplication {
             System.out.println("3. Exit Application");
             System.out.print("Enter your choice: ");
 
-            int choice = sc.nextInt();
+            String ch = sc.next();
+            int choice = 0;
+            try {
+            	choice = Integer.parseInt(ch);
+            } catch (Exception e) {
+            	System.out.println(e);
+            }
             sc.nextLine();
 
             switch (choice) {
